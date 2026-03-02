@@ -23,3 +23,11 @@ for i in range(1, num + 1):
      print(i, end="")
     # After inner loop finishes, move to next line
     print()
+
+
+#another method
+
+n = int(input("enter a num: "))
+
+for i in range(1, n + 1):
+    print(str(i) * i)    
