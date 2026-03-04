@@ -25,9 +25,10 @@ for i in range(1, num + 1):
     print()
 
 
-#another method
+#another method "string multiplication"
 
 n = int(input("enter a num: "))
 
 for i in range(1, n + 1):
+# converting int to str     
     print(str(i) * i)    
