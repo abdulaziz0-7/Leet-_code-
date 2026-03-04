@@ -1,14 +1,3 @@
-# Given an integer n. You need to recreate the pattern given below for any value of N.
-#  Let's say for N = 5, the pattern should look like as below:
-
-# *****
-# ****
-# ***
-# **
-# *
-
-
-
 # creating a variable num initilizing num as intiger getting input from user
 num =int(input("enter a num"))
 # creating a for loop 
@@ -16,7 +5,10 @@ num =int(input("enter a num"))
 # inside the range()
 # range(start, stop, step)
 # num is start, 0 is stop , and -1 is step 
-
+# it first minus num  ends at 0 as o is referd as stop
 for i in range (num,0,-1):
-# printing "*" * i     
-    print("*"*i)
+    for j in range(1,i+1):
+        print(j,end=" ")
+    print()    
+       
+
