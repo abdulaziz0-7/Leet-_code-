@@ -21,7 +21,6 @@ for i in range(1,n+1,1):
 
 
 # creating a for loop to print second  half of the pattern by  setting the range from n-1 (we are using n-1 to remove the same line )
-#  to 0 and incrementing by -1  
+#   to 0 and incrementing by -1  
 for i in range(n-1,0,-1):
-# then printing the star by  multiplying the string "*"  with i  
   print ("*"*i)
