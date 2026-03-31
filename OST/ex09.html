@@ -4,20 +4,16 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
+
 <h1>Hello World!</h1>
 
 <script>
-$(document).ready(function () {
-$("h1").click(function () {
-$(this).hide();
-});
-$("h1").hover(function () {
-$(this).css("background-color", "yellow");
-});
-$("h1").mousedown(function () {
-$(this).css("background-color", "red");
-});
+$("h1").on({
+  click(){ $(this).hide() },
+  mouseenter(){ $(this).css("background","yellow") },
+  mousedown(){ $(this).css("background","red") }
 });
 </script>
+
 </body>
 </html>
