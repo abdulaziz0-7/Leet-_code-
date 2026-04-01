@@ -1,5 +1,8 @@
-var http = require("http");
-http
-.createServer(function (req, res) { res.write("Hello World!"); res.end();
+var http= require("http");
+
+http.createServer((req ,res)=>{
+    res.write("hello world");
+    res.end();
 })
- .listen(8080);
+.listen(8080)
+
